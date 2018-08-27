@@ -1,0 +1,20 @@
+ext {
+    android = [
+            applicationId:"com.mix.cmstoc",
+            compileSdkVersion: 26,
+            minSdkVersion    : 15,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    supportLibrary = "26.1.0"
+
+    supportDependencies = [
+            supportAppcompat:"com.android.support:appcompat-v7:${supportLibrary}",
+            supportRecyclerview:"com.android.support:recyclerview-v7:${supportLibrary}",
+            supportDesign:"com.android.support:design:${supportLibrary}"
+    ]
+
+}
+
